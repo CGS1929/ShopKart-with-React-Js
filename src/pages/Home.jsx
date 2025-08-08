@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import ProductCard from "../components/ProductCard";
 import CategoryFilter from "../components/CategoriesFilter";
 import loadingGif from "../assets/loading.gif";
-import SearchBar from "../components/searchbar";
+import SearchBar from "../components/SearchBar";
 
 function Home() {
   const [products, setProducts] = useState([]);
